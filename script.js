@@ -17,8 +17,7 @@ function ambilData(params) {
           $("#movie-list").append(`
                     <div class="col-md-4 p-5">
                         <div class="card mb-4">
-                            <img src="${Search.Poster}" class="card-img-top img-responsive"/>
-                            style="max-height:500px; min-height:500px"/>
+                            <img src="${Search.Poster}" class="card-img-top img-responsive" style="max-height:500px; min-height:500px"/>
                             <div class="card-body">
                                 <h5 class="card-title text-truncate">${Search.Title}</h5>
                                 <h6 class="card-subtitel mb-2 text-muted">Tahun: ${Search.Year}</h6>
